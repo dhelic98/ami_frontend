@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMI Project</title>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body class="ui grid">
+    <div class="sidenav two wide column">
+        <a onclick="showDashboard()">Dashboard</a>
+        <a onclick="showUsers()">Users</a>
+    </div>
+    <div class="maincontent fourteen wide column">
+        <div id="dashboard">
+            <h1 class="hero-title">Dashboard</h1>
+        </div>
+        <div id="users">
+            <h1 class="hero-title">Users</h1>
+        </div>
+    </div>
+</body>
+<script src="custom.js"></script>
+
+</html>

@@ -1,0 +1,48 @@
+.sidenav {
+    background: #383A3F;
+    height: 100%;
+}
+
+.sidenav a:first-child {
+    padding-top: 25px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    border-bottom: 1px white solid;
+    width: 100%;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.sidenav a:hover {
+    color: #D8E6E7;
+    font-size: 1.675rem;
+    cursor: pointer;
+}
+
+.maincontent {
+    background: #e1eef6;
+
+}
+
+#users {
+    display: none;
+}
+
+.hero-title {
+    color: black;
+    font-size: 2.5rem;
+}
+
+.hero-title::after{
+    display: block;
+    height: 3px;
+    width: 180px;
+    content: "  ";
+    background-color: #FFBC42;
+}
