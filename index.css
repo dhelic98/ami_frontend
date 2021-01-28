@@ -37,12 +37,51 @@
 .hero-title {
     color: black;
     font-size: 2.5rem;
+    margin-bottom: 50px;
 }
 
-.hero-title::after{
+.hero-title::after {
     display: block;
     height: 3px;
     width: 180px;
     content: "  ";
     background-color: #FFBC42;
+}
+
+.mcard {
+    border-top: red 2px solid !important;
+    text-align: center;
+}
+
+.mcard p:first-of-type {
+    text-transform: uppercase !important;
+    color: #FFBC42 !important;
+    font-size: 15px !important;
+}
+
+.mcard p {
+    font-size: 30px;
+}
+
+.ui .segment h2 {
+    padding-left: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: red;
+
+}
+
+.mactivity {
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.mactivity>p {
+    font-size: 18px;
+
+}
+
+#recentActivites {
+    margin-top: 50px;
 }
